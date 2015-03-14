@@ -1,0 +1,14 @@
+{
+  "name": "pi-nwjs",
+  "description": "NW.js test for Raspi2.",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 660,
+    "height": 500
+  },
+  "scripts": {
+    "start": "nw"
+  }
+}
