@@ -8,6 +8,9 @@ RUN apt-get update && apt-get install -y \
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 
+RUN wget https://github.com/jtg-gg/node-webkit/releases/download/nw-v0.12.0/nwjs-v0.12.0-linux-arm.tar.gz
+RUN tar -xf nwjs-v0.12.0-linux-arm.tar.gz nw
+
 RUN npm install
 
 # Expose the ports that your app uses. For example:
