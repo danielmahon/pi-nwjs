@@ -9,7 +9,7 @@ COPY . /usr/src/app
 WORKDIR /usr/src/app
 
 RUN wget https://github.com/jtg-gg/node-webkit/releases/download/nw-v0.12.0/nwjs-v0.12.0-linux-arm.tar.gz
-RUN tar -xf nwjs-v0.12.0-linux-arm.tar.gz nw/
+RUN tar -xfv nwjs-v0.12.0-linux-arm.tar.gz
 
 RUN npm install
 
