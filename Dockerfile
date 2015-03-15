@@ -16,7 +16,5 @@ COPY . /usr/src/app
 
 RUN npm install
 
-RUN xhost +
-
 # Expose the ports that your app uses. For example:
 EXPOSE 8080
